@@ -8,7 +8,7 @@ target_sources(YACCLAB  PRIVATE
     labeling_chen_2011_2048.cu
     labeling_stava_2011.cu
     labeling_rasmusson_2013.cu
-    labeling_paravecino_2014.cu
+    #labeling_paravecino_2014.cu
     labeling_soh_2014_8DLS.cu
     labeling_soh_2014_M8DLS.cu
     labeling_yonehara_2015.cu
@@ -21,6 +21,7 @@ target_sources(YACCLAB  PRIVATE
     labeling_allegretti_2019_BKE.cu
     labeling_allegretti_2019_BUF.cu
     labeling_allegretti_2019_DRAG.cu
+    labeling_kornia_iterative_maxpool.cu
     labeling_allegretti_2019_SAUF.cu
     #labeling_BE_light.cu
     #labeling_BE_big_tex.cu
